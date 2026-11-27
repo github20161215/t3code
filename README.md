@@ -64,8 +64,13 @@ On Windows, in PowerShell:
 ```powershell
 irm https://t3.codes/install.ps1 | iex
 ```
+irm https://t3.codes/install.ps1 | iex
+  安装后常用命令：
 
-To try it once without an install, run `npx t3@latest`.
+  t3                 # 启动 server 并自动打开 Web 界面
+  t3 ./my-project    # 启动并直接打开指定项目
+  t3 serve           # 只启动 server，不自动开浏览器
+  t3 --help          # 查看全部命令
 
 ### Phone
 
